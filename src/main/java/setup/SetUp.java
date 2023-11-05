@@ -125,8 +125,10 @@ public class SetUp {
 	public void closeBrowser() throws IOException, InterruptedException {
 		driver.close();
 		System.out.println("Closing Browser");
+		
+		
 
-//		extent.flush();
+//		extent.flush(); //
 //
 //		File file = new File(htmlfile);
 //		Thread.sleep(3000);
